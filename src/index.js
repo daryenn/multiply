@@ -1,3 +1,5 @@
 module.exports = function multiply(first, second) {
-  // your solution
+  let mult = BigInt(first) * BigInt(second);
+  console.log("'" + mult + "'" + ", because " + first + " * " + second + " === " + mult);
+  return mult.toString();
 }
